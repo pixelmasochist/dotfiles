@@ -1,0 +1,27 @@
+! Terminal Colours - Playtime
+*background:    #2a2824
+*foreground:    #bab8b4
+! Black
+*color0:	    #2a2824
+*color8:	    #7a7874
+! Red
+*color1:	    #f00090
+*color9:	    #f880a0
+! Green
+*color2:	    #91ab19
+*color10:	    #afcc2b
+! Yellow
+*color3:	    #f0a000
+*color11:	    #f8d380
+! Blue
+*color4:	    #229ff8
+*color12:	    #79c1f8
+! Mangenta
+*color5:	    #a164c7
+*color13:	    #ad91f8
+! Cyan 
+*color6:	    #009090
+*color14:	    #80f8f8
+! White
+*color7:	    #bab8b4
+*color15:	    #faf8f4
