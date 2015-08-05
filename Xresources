@@ -1,0 +1,59 @@
+! General Configuration
+
+xclock*update: 1
+xclock*analog: true
+
+! Xft Settings
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.rgba: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+
+!#include "config/xdefaults/console.colours"
+!#include "config/xdefaults/playtime.colours"
+#include "config/xdefaults/playtime256.colours"
+!#include "config/xdefaults/tango.colours"
+!#include "config/xdefaults/thayer-tango.colours"
+!#include "config/xdefaults/thayer-pxl.colours"
+
+! Nethack
+
+NetHack*font: -*-edges-*-*-*-*-*-*-*-*-*-*-*-*
+Nethack*background:	    #262626
+NetHack*foreground:	    #b2b2b2
+NetHack*map*gray:	    #767676
+NetHack*map*red:	    #ff0087
+NetHack*map*bright_red:	    #ff87af
+NetHack*map*green:	    #87af5f
+NetHack*map*bright_green:   #afd75f
+NetHack*map*orange:	    #ffaf00
+NetHack*map*yellow:	    #ffd787
+NetHack*map*blue:	    #00afff
+NetHack*map*bright_blue:    #87d7ff
+NetHack*map*magenta:	    #af5fd7
+NetHack*map*bright_magenta: #af87ff
+NetHack*map*cyan:	    #008787
+NetHack*map*bright_cyan:    #87ffff
+NetHack*map*white:	    #ffffff
+
+! XTerm Specifics
+
+xterm*font: -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
+xterm*utf8: 1
+xterm*loginShell: true
+xterm*vt100*geometry: 80x40
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48
+xterm*saveLines: 2048
+xterm*eightBitInput: false
+xterm*boldMode: false
+xterm*colorBDMode: true
+xterm*colorBD: rgb:ff/ff/ff
+
+! URxvt Specifics
+
+URxvt*font: -*-smooth-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*boldFont: -*-smooth-*-*-*-*-*-*-*-*-*-*-*-*
+URxvt*scrollBar: off
+URxvt*geometry: 80x40

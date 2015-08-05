@@ -49,7 +49,6 @@ colors
 zstyle ':completion:*' menu select
 setopt completealiases
 setopt HIST_IGNORE_DUPS
-setopt correctall
 
 export CLICOLOR=1
 #BSD to Linux colours
