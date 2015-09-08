@@ -142,7 +142,4 @@ export LYNX_LSS=$HOME/.lynx.lss
 export LANGUAGE="en_GB.UTF-8"
 
 # github
-
 source ${HOME}/.config/github.sh
-
-# test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
