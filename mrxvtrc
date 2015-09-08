@@ -10,8 +10,8 @@ Mrxvt.colorBD: #f00090
 Mrxvt.colorUL: #009090
 Mrxvt.protectSecondary: true
 Mrxvt.internalBorder: 6
-Mrxvt*font:	    -*-smoothansi-medium-r-*-*-*-*-*-*-*-*-*-*
-Mrxvt.boldFont:	    -*-smoothansi-medium-r-*-*-*-*-*-*-*-*-*-*
+Mrxvt*font: -*-terminalpants-medium-*-normal-*-12-*-*-*-*-*-*-*
+Mrxvt.boldFont: -*-terminalpants-medium-*-normal-*-12-*-*-*-*-*-*-*
 Mrxvt.tabBackground:	#d4d4d4
 Mrxvt.itabBackground:	#d4d4d4
 Mrxvt.tabForeground:	#5c5c5c
@@ -43,7 +43,7 @@ Mrxvt.color12:	    #79c1f8
 Mrxvt.color5:	    #aa79f0
 Mrxvt.color13:	    #ad91f8
 ! Cyan - Greyed
-Mrxvt.color6:	    #7ba4a4
+Mrxvt.color6:	    #5b8484
 Mrxvt.color14:	    #9ac1c1
 ! White
 Mrxvt.color7:	    #bab8b4
