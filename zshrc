@@ -54,7 +54,7 @@ export CLICOLOR=1
 #BSD to Linux colours
 export LSCOLORS=ExGxbxDxCxegedabagce
 
-# I admit this is a bastardisation of xiong-chiamiov-plus from the oh-my-zsh collection.
+# I admit this prompt is a bastardisation of xiong-chiamiov-plus from the oh-my-zsh collection.
 
 PROMPT=$'%{\e[1;30m%}%B[%b%{\e[0m%}%{\e[0;37m%}%n%{\e[1;31m%} @ %{\e[0m%}%{\e[1;37m%}%m%{\e[1;30m%}%B]%b%{\e[0m%} - %b%{\e[1;30m%}%B[%b%{\e[1;34m%}%~%{\e[1;30m%}%B]%b%{\e[0m%}
 %{\e[1;30m%}%B%B[%{\e[0;33m%}$%{\e[1;30m%}%B]%{\e[0m%}%b '
@@ -115,7 +115,7 @@ alias pmore='ps uax | $PAGER'
 
 # media players
 alias uade='uade123 --headphones2'
-alias sp8bit='sidplay -p8 -f2800'
+alias sp8bit='sidplay -p8 -f28000'
 
 # lynx bookmarks
 alias quack='lynx https://www.duckduckgo.com'
