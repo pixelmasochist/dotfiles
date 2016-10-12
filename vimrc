@@ -10,8 +10,8 @@ set autoindent
 set smartindent
 " set wrap
 set showmode
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set smarttab
 set ruler
 set incsearch
@@ -85,19 +85,3 @@ hi DiffDelete	    ctermfg=15
 hi cIf0		    ctermfg=9
 hi SpellBad	    ctermfg=14 ctermbg=1
 hi SpellCap	    ctermfg=6
-
-
-" ANSI BITS
-
-function! SetFileEncodings(encodings)
-let b:myfileencodingsbak=&fileencodings
-let &fileencodings=a:encodings
-endfunction
-function! RestoreFileEncodings()
-let &fileencodings=b:myfileencodingsbak
-unlet b:myfileencodingsbak
-endfunction
-
-" .NFO specific
-au BufReadPre *.nfo call SetFileEncodings('cp437')|set ambiwidth=single
-au BufReadPost *.nfo call RestoreFileEncodings()
