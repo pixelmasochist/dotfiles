@@ -1,13 +1,13 @@
 " USER ~/.vimrc
 
+execute pathogen#infect()
+
 set nocompatible
 set nomodeline " FreeBSD reports possible vulnerability issue
 set encoding=utf-8
 set ffs=unix,dos,mac
 " set number
 set background=dark
-set autoindent
-set smartindent
 " set wrap
 set showmode
 set softtabstop=2
@@ -16,19 +16,38 @@ set smarttab
 set ruler
 set incsearch
 set hlsearch
-set foldmethod=indent
+set foldmethod=syntax
 set showbreak="+ "
 set laststatus=2
+set scrolloff=4
 set backspace=indent,eol,start
 set statusline=[%02.2n]\ %F\ %y\ %m%r%h%=Line\:\ %0004.4l/%0004.4L\ (%003.3p%%)\ \ Col\:\ %0003.3c
 set wildchar=<Tab> wildmenu wildmode=full
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:sysntastic_always_polulate_loc_list = 1
+let g:sysntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:systastic_check_on_wq = 0
+
 syntax on
-set t_Co=16
+set t_Co=256
+colo playtime
+
+filetype indent on
+filetype plugin indent on
 
 " inoremap <BS> <c-r>=Backspace()<CR>
 
-" General Colours
+highlight Cursor guifg=#22201d guibg=#bab8b4
+set guicursor+=a:blinkon0
+
+" General Colours : The colour theme is designed to work with 
+" my 'Playtime' colour scheme I may at some point evovle the
+" colours into an actual vim syntax theme.
 
 hi Normal	    ctermfg=7
 hi CursorColumn	    ctermbg=6
